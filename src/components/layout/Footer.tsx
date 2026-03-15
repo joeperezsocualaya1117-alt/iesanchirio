@@ -74,7 +74,7 @@ export default function Footer({ onNavigate }: FooterProps) {
             <ul className="space-y-3">
               <li className="flex items-start gap-3 text-gray-400 text-sm">
                 <MapPin className="h-5 w-5 text-emerald-500 flex-shrink-0 mt-0.5" />
-                <span>Jr. Los Álamos 123, Sanchirio Palomar, Lima</span>
+                <span>Barrio Nuevo, Sanchirio Palomar, Chanchamayo</span>
               </li>
               <li className="flex items-center gap-3 text-gray-400 text-sm">
                 <Phone className="h-5 w-5 text-emerald-500 flex-shrink-0" />
