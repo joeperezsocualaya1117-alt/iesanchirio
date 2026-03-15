@@ -15,7 +15,7 @@ const navItems = [
   { id: 'academico', label: 'Académico' },
   { id: 'profesorado', label: 'Profesorado' },
   { id: 'admision', label: 'Admisiones' },
-  { id: 'apafa', label: 'APAFA' },
+  { id: 'apafa', label: 'Apafa' },
   { id: 'noticias', label: 'Noticias' },
   { id: 'informacion', label: 'Información' },
 ];
