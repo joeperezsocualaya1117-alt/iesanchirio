@@ -235,7 +235,7 @@ export default function InformacionPage() {
                   </div>
                   <div>
                     <p className="font-medium text-gray-900">Dirección</p>
-                    <p className="text-gray-600">Jr. Los Álamos 123, Sanchirio Palomar, Lima</p>
+                    <p className="text-gray-600">Barrio nuevo, Sanchirio Palomar, Chanchamayo</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
