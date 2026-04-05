@@ -20,262 +20,100 @@ interface Noticia {
 }
 
 const noticias: Noticia[] = [
-  {
-    id: '1',
-    title: 'Inscripciones Abiertas 2026',
-    excerpt: 'Ya está abierto el proceso de admisión para el año escolar 2026. Conoce los requisitos y fechas importantes.',
-    content: `El proceso de admisión para el año escolar 2026 ya está oficialmente abierto en la I.E. Sanchirio Palomar. Este año, hemos implementado un nuevo sistema de inscripción en línea que facilitará el proceso para los padres de familia.
+  
+{
+id: '96',
+title: '¡El cole se llena de vida de nuevo! 🍎',
+excerpt: 'Recibimiento de nuestro docentes a la I.E. Sanchirio Palomar',
+content: `Recibimos a nuestros profesores con el corazón contento y la mesa puesta. 
 
-## Fechas Importantes
+Desde la APAFA, queremos que se sientan como en casa, por eso organizamos un almuerzo especial para compartir metas, risas y, sobre todo, nuestra gratitud por su vocación.
 
-- **Inscripciones en línea:** Del 1 al 31 de marzo
-- **Entrega de documentos:** Del 1 al 15 de abril
-- **Evaluaciones:** Del 20 al 30 de abril
-- **Publicación de resultados:** 5 de mayo
+¡Bienvenidos a un gran año escolar en Sanchirio Palomar!-Juntos, padres y maestros, 
 
-## Requisitos
+¡somos el mejor equipo! 💪📚
+`,
+date: '2026-03-20',
+author: 'I.E. SANCHIRIO',
+category: 'Bienvenida Docentes',
+image: '/images/vienvenida.png',
+readTime: '3 min',
+tags: ['Bienvenida', '2026'],
+},
 
-Para el proceso de admisión, los padres de familia deberán presentar:
-- Copia del DNI del estudiante y padres
-- Partida de nacimiento original
-- Certificado de estudios del año anterior
-- Fotos tamaño carnet
+{
+id: '97',
+title: 'Hablemos Quiosco! 🍎🥪',
+excerpt: 'Saludamos a Krysell Marcela, Escobar Yupanqui',
+content: `Saludamos a Krysell Marcela, Escobar Yupanqui, quien estará a cargo de la alimentación de nuestros estudiantes este año. 
+Estamos seguros de que su compromiso con la salud y el buen trato marcará la diferencia.
 
-## Horarios de Atención
+¡Bienvenidos a la familia de la I.E. “Sanchirio Palomar”! 
+Juntos promovemos una vida saludable. 💪✨
+`,
+date: '2026-03-23',
+author: 'I.E. SANCHIRIO P.',
+category: 'Quiosco',
+image: '/images/mercela.png',
+readTime: '3 min',
+tags: ['I.E Sanchirio Palomar', 'Educación', 'QuioscoSaludable'],
+},
 
-La oficina de admisiones atenderá de lunes a viernes de 8:00 AM a 4:00 PM, y sábados de 9:00 AM a 12:00 PM.
+{
+id:'98',
+title: '¡Gran Bienvenida 2026! Chocolatada para Alumnos y Almuerzo de Confraternidad',
+excerpt: 'En la I.E. “Sanchirio Palomar”, el inicio de clases es una fiesta. Con mucha alegría, el Consejo Directivo de la APAFA recibió a nuestros estudiantes ',
+content: `En la I.E. “Sanchirio Palomar”, el inicio de clases es una fiesta. Con mucha alegría, el Consejo Directivo de la APAFA recibió a nuestros estudiantes y visitantes con un evento especial de bienvenida, financiado íntegramente con los fondos de nuestra asociación.
 
-Para más información, pueden comunicarse al teléfono (01) 456-7890 o escribir al correo admisiones@iesanchirio.edu.pe.`,
-    date: '15 Marzo 2026',
-    author: 'Departamento de Admisiones',
-    category: 'Admisiones',
-    image: '/images/hero-classroom.png',
-    readTime: '5 min',
-    tags: ['Admisiones', 'Inscripciones', '2026'],
-  },
-  {
-    id: '2',
-    title: 'Feria de Ciencias 2026',
-    excerpt: 'Nuestros estudiantes presentaron proyectos innovadores en la feria de ciencias anual, demostrando creatividad y conocimiento.',
-    content: `Con gran éxito se llevó a cabo la Feria de Ciencias 2026, donde más de 50 proyectos fueron presentados por estudiantes de primaria y secundaria. Los proyectos demostraron un alto nivel de creatividad y aplicación del método científico.
+Creemos que un ambiente cálido y acogedor es el primer paso para un año escolar exitoso. Por ello, pusimos "manos a la obra" para organizar esta jornada de integración.
 
-## Proyectos Destacados
+Detalles de la Actividad:
 
-### Primer Lugar - Secundaria
-**"Sistema de Riego Automatizado con Energía Solar"**
-Estudiantes de 4° y 5° de secundaria desarrollaron un sistema de riego que utiliza energía solar y sensores de humedad para optimizar el uso del agua en la agricultura.
+- Chocolatada Estudiantil: Todos nuestros alumnos disfrutaron de una deliciosa chocolatada con su sándwich de pollo, compartiendo momentos de risas y reencuentro con sus compañeros.
 
-### Primer Lugar - Primaria
-**"Filtro de Agua con Materiales Reciclados"**
-Los estudiantes de 6° grado crearon un filtro de agua utilizando materiales reciclados y naturales, demostrando la importancia del cuidado del medio ambiente.
+- Almuerzo de Bienvenida: Recibimos a nuestras autoridades, visitantes y delegaciones con un almuerzo especial, fortaleciendo los lazos entre la comunidad y nuestra institución.
 
-## Categorías Participantes
+- Gestión Transparente: Este evento fue posible gracias a las cuotas y aportes de los padres de familia, administrados responsablemente para generar bienestar en nuestra comunidad educativa.
 
-- Física y Química
-- Biología y Ecología
-- Tecnología e Innovación
-- Ciencias Sociales
+"Ver la sonrisa de nuestros niños al entrar al colegio es nuestra mayor satisfacción. Gracias a cada padre por hacer esto posible con su aporte".
+`,
+date: '2026-03-23',
+author: 'I.E. SANCHIRIO P.',
+category: 'Bienvenida Estudiantes',
+image: '/images/bienvenidaest.png',
+readTime: '4 min',
+tags: ['I.E Sanchirio Palomar', 'Educación', 'Bienvenida'],
+},
 
-Agradecemos a todos los docentes y padres de familia que apoyaron a los estudiantes en el desarrollo de sus proyectos. La feria demuestra el compromiso de nuestra institución con la educación científica de calidad.`,
-    date: '10 Marzo 2026',
-    author: 'Coordinación Académica',
-    category: 'Eventos',
-    image: '/images/primaria.png',
-    readTime: '4 min',
-    tags: ['Ciencias', 'Feria', 'Innovación'],
-  },
-  {
-    id: '3',
-    title: 'Campeonato Deportivo Interescolar',
-    excerpt: 'El equipo de fútbol de nuestra institución obtuvo el primer lugar en el campeonato interescolar de la zona.',
-    content: `¡Felicitaciones a nuestro equipo de fútbol que obtuvo el primer lugar en el Campeonato Interescolar de la Zona Este! El equipo demostró un excelente desempeño deportivo y un gran espíritu de equipo.
+{
+  id:'99',
+title: '¡LO LOGRAMOS! Nuestra Institución Gana Proyecto en el Presupuesto Participativo 2027',
+excerpt: 'Consejo Directivo de la APAFA y la Dirección de la I.E. “Sanchirio Palomar” informan a toda la comunidad educativa que nuestro proyecto ha sido aprobado',
+content: `Con gran orgullo, el Consejo Directivo de la APAFA y la Dirección de la I.E. “Sanchirio Palomar” informan a toda la comunidad educativa que nuestro proyecto ha sido seleccionado y aprobado dentro del Presupuesto Participativo de la Municipalidad Provincial de Chanchamayo para el año 2027.
 
-## Resultados del Campeonato
+Gracias a la participación activa de nuestros representantes y al sustento técnico de nuestras necesidades, la municipalidad destinará fondos para la ejecución del Proyecto: 
 
-### Partidos Jugados
-- I.E. Sanchirio vs I.E. San Martín: 3-1
-- I.E. Sanchirio vs I.E. Los Álamos: 2-0
-- I.E. Sanchirio vs I.E. Santa Rosa: 4-2 (Final)
+“Construcción de cobertura de instalaciones deportivas; en el (la) I.E. Sanchirio Palomar en el Centro Poblado Sanchirio Palomar, Distrito San Luis de Shuaro, Provincia de Chanchamayo, Departamento de Junín”.
 
-## Equipo Campeón
+•	Inversión Pública: Logramos canalizar recursos municipales hacia nuestra institución, cuidando así la economía de los padres de familia.
 
-**Jugadores Destacados:**
-- Juan Pérez (Capitán) - 5° Secundaria
-- Carlos López - 4° Secundaria
-- Miguel Torres - 3° Secundaria
-- Roberto Díaz - 5° Secundaria
+•	Gestión Exitosa: Este resultado es fruto de constantes reuniones, sustentos y el voto de los agentes participantes.
 
-**Cuerpo Técnico:**
-- Prof. Fernando Gutiérrez (Entrenador)
-- Prof. Ricardo Vega (Asistente)
+"Este es el resultado de no quedarnos de brazos cruzados. Tocamos puertas en la Municipalidad y hoy vemos los frutos. 
 
-El campeonato contó con la participación de 8 instituciones educativas de la zona. Este logro demuestra el compromiso de nuestros estudiantes con el deporte y el trabajo en equipo.
+¡El beneficio es para todos nuestros alumnos!".
 
-La entrega de trofeos se realizará el próximo viernes en ceremonia especial.`,
-    date: '5 Marzo 2026',
-    author: 'Departamento de Deportes',
-    category: 'Deportes',
-    image: '/images/secundaria.png',
-    readTime: '3 min',
-    tags: ['Deportes', 'Fútbol', 'Campeonato'],
-  },
-  {
-    id: '4',
-    title: 'Taller de Orientación Vocacional',
-    excerpt: 'Se llevó a cabo el taller de orientación vocacional para estudiantes de 4° y 5° de secundaria con gran éxito.',
-    content: `Con una asistencia de más de 150 estudiantes, se realizó el Taller de Orientación Vocacional dirigido a los estudiantes de 4° y 5° de secundaria. El taller tuvo como objetivo ayudar a los estudiantes a tomar decisiones informadas sobre su futuro profesional.
+`,
+date: '2026-03-27',
+author: 'I.E. SANCHIRIO P.',
+category: 'Institución Educativa',
+image: '/images/techo.png',
+readTime: '4 min',
+tags: ['I.E Sanchirio Palomar', 'Educación', 'Infraestructura'],
+},
 
-## Temas Tratados
-
-### Carreras Universitarias
-Se presentaron las principales carreras universitarias con mayor demanda en el mercado laboral actual, incluyendo:
-- Ingeniería de Sistemas
-- Medicina
-- Administración
-- Derecho
-- Educación
-
-### Educación Técnica
-También se dio a conocer las opciones de educación técnica y los institutos de referencia en la zona.
-
-## Expositores
-
-Contamos con la participación de profesionales de diferentes áreas que compartieron sus experiencias:
-- Dr. Juan Mendoza - Médico
-- Ing. María Torres - Ingeniera de Sistemas
-- Lic. Ana Gutiérrez - Administradora
-- Abog. Roberto Vargas - Abogado
-
-Los estudiantes tuvieron la oportunidad de hacer preguntas y recibir orientación personalizada. Agradecemos a todos los profesionales que compartieron su tiempo con nuestra comunidad educativa.`,
-    date: '1 Marzo 2026',
-    author: 'Departamento de Tutoría',
-    category: 'Académico',
-    image: '/images/library.png',
-    readTime: '4 min',
-    tags: ['Vocacional', 'Orientación', 'Universidad'],
-  },
-  {
-    id: '5',
-    title: 'Día del Logro 2026',
-    excerpt: 'Celebramos el Día del Logro donde nuestros estudiantes demostraron sus aprendizajes y proyectos del año.',
-    content: `Con gran entusiasmo se celebró el Día del Logro 2026, un evento especial donde nuestros estudiantes presentaron los proyectos y aprendizajes alcanzados durante el año escolar.
-
-## Actividades Realizadas
-
-### Exposiciones Académicas
-Los estudiantes de todos los niveles presentaron proyectos en las siguientes áreas:
-- Matemáticas: Resolución de problemas del mundo real
-- Comunicación: Producción de textos y presentaciones orales
-- Ciencia y Tecnología: Experimentos y prototipos
-- Ciencias Sociales: Investigaciones sobre historia local
-
-### Presentaciones Artísticas
-- Danzas folclóricas
-- Coro escolar
-- Teatro educativo
-- Exposición de obras de arte
-
-### Feria Gastronómica
-Los padres de familia participaron en la feria gastronómica donde se ofrecieron platos típicos de diferentes regiones del Perú.
-
-## Reconocimientos
-
-Se entregaron reconocimientos especiales a los estudiantes con mejor rendimiento académico y a aquellos que demostraron valores destacados durante el año escolar.
-
-Agradecemos a toda la comunidad educativa por hacer de este evento un momento especial de celebración y reflexión sobre nuestros logros educativos.`,
-    date: '28 Febrero 2026',
-    author: 'Dirección',
-    category: 'Eventos',
-    image: '/images/hero-classroom.png',
-    readTime: '5 min',
-    tags: ['Logro', 'Celebración', 'Estudiantes'],
-  },
-  {
-    id: '6',
-    title: 'Capacitación Docente 2026',
-    excerpt: 'Nuestro cuerpo docente participó en capacitaciones sobre nuevas metodologías de enseñanza.',
-    content: `El cuerpo docente de la I.E. Sanchirio Palomar participó en las capacitaciones programadas para el año 2026, enfocadas en nuevas metodologías de enseñanza y el uso de tecnología educativa.
-
-## Temas de Capacitación
-
-### Metodologías Activas
-- Aprendizaje Basado en Proyectos (ABP)
-- Aula Invertida (Flipped Classroom)
-- Gamificación educativa
-- Aprendizaje cooperativo
-
-### Tecnología Educativa
-- Uso de plataformas educativas digitales
-- Creación de recursos multimedia
-- Herramientas de evaluación en línea
-- Aplicaciones educativas para el aula
-
-### Bienestar Docente
-- Manejo del estrés
-- Trabajo en equipo
-- Comunicación efectiva
-
-## Facilitadores
-
-Las capacitaciones estuvieron a cargo de especialistas del Ministerio de Educación y profesionales en educación de reconocidas universidades.
-
-## Resultados
-
-- 45 docentes capacitados
-- 20 horas de formación
-- Certificaciones oficiales
-
-La institución continúa comprometida con la formación continua de su cuerpo docente como pilar fundamental de la calidad educativa.`,
-    date: '20 Febrero 2026',
-    author: 'Coordinación Académica',
-    category: 'Institucional',
-    image: '/images/secundaria.png',
-    readTime: '4 min',
-    tags: ['Capacitación', 'Docentes', 'Formación'],
-  },
-   {
-    id: '7',
-    title: 'Capacitación Administrativos 2026',
-    excerpt: 'Nuestro cuerpo administrativo participó en capacitaciones sobre nuevas metodologías de enseñanza.',
-    content: `El cuerpo docente de la I.E. Sanchirio Palomar participó en las capacitaciones programadas para el año 2026, enfocadas en nuevas metodologías de enseñanza y el uso de tecnología educativa.
-
-## Temas de Capacitación
-
-### Metodologías Activas
-- Aprendizaje Basado en Proyectos (ABP)
-- Aula Invertida (Flipped Classroom)
-- Gamificación educativa
-- Aprendizaje cooperativo
-
-### Tecnología Educativa
-- Uso de plataformas educativas digitales
-- Creación de recursos multimedia
-- Herramientas de evaluación en línea
-- Aplicaciones educativas para el aula
-
-### Bienestar Docente
-- Manejo del estrés
-- Trabajo en equipo
-- Comunicación efectiva
-
-## Facilitadores
-
-Las capacitaciones estuvieron a cargo de especialistas del Ministerio de Educación y profesionales en educación de reconocidas universidades.
-
-## Resultados
-
-- 45 docentes capacitados
-- 20 horas de formación
-- Certificaciones oficiales
-
-La institución continúa comprometida con la formación continua de su cuerpo docente como pilar fundamental de la calidad educativa.`,
-    date: '20 Febrero 2026',
-    author: 'Coordinación Académica',
-    category: 'Institucional',
-    image: '/images/administracion.png',
-    readTime: '4 min',
-    tags: ['Capacitación', 'Docentes', 'Formación'],
-  },
+ 
+  
 ];
 
 function NoticiaDetailModal({ noticia, open, onOpenChange }: {

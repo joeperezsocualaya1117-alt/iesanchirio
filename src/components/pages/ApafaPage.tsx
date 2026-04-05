@@ -149,6 +149,16 @@ const documentos: Documento[] = [
     tamaño: '1.9 MB',
     visualizaciones: 38,
   },
+  {
+id: '14',
+nombre: 'Acta de sesion extraordinaria',
+descripcion: 'ata de convocata tratar asunto urgentes ',
+tipo: 'acta',
+fecha: '2026-03-16',
+driveUrl: 'https://drive.google.com/file/d/1Kbp9h5tfr9G5L3OIlmtz5c4cUunP8Cym/view?usp=drive_link',
+tamaño: '',
+visualizaciones: 5,
+},
 ];
 
 const tipoConfig = {
